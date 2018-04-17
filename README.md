@@ -30,7 +30,7 @@ CSDN教程：https://blog.csdn.net/wsh596823919/article/details/79981703
 
 python算法实现：
 ### 1、主程序
-···python
+```python
 def run():  
     """ 
     主程序 
@@ -51,9 +51,9 @@ def run():  
     print("最终结果:", cen1, cen2)  
     # 图片分类及展示图片  
     image2k(cen1, cen2)  
-···
+```
 ### 2、读取图片数据到数组  
-···python
+```python
 def loadDataSet(arrimg):  
     """ 
     读取图片数据(三维向量b,g,r) 到 feature(一维列表[r,g,b]) 数据集 
@@ -86,9 +86,9 @@ def loadDataSet(arrimg):
     # print("像素点集合的shape:", feature.shape)  
   
     return feature  
-···
+```
 ### 3、判断“距离”
-···python
+```python
 def distance(vecA, vecB):  
     """ 
     计算两个向量的距离:三维向量-->一维距离 
@@ -97,9 +97,9 @@ def distance(vecA, vecB):
     :return: 浮点型数据 
     """  
     return np.sqrt(np.power(vecA[0] - vecB[0], 2) + np.power(vecA[1] - vecB[1], 2) + np.power(vecA[2] - vecB[2], 2))  
-···
+```
 ### PS：选取不同的方法进行聚类
-···python
+```python
 def sel_function(n, feature, arrimg, init_cen_1, init_cen_2):  
     """ 
     三选一，获得聚类中心 
@@ -127,9 +127,9 @@ def sel_function(n, feature, arrimg, init_cen_1, init_cen_2):
         print("无此方法，请输入1,2,3")  
   
     return cen_1, cen_2  
-···
+```
 ### 4、选取kmeans初始聚类中心
-···python
+```python
 def sel_init_cen(features):  
     """ 
     随机选择两个初始点 
@@ -147,9 +147,9 @@ def sel_init_cen(features):
     print("初始聚类中心为:", centor_1, "+", centor_2)  
   
     return centor_1, centor_2  
-···
+```
 ### 5、kmeans进行聚类
-···python
+```python
 def kmeans(node, centor1, centor2, class1, class2):  
     """ 
     kmeans方法迭代计算聚类中心 
@@ -185,9 +185,9 @@ def kmeans(node, centor1, centor2, class1, class2):
     print("mean-class2", centor2)  
   
     return centor1, centor2  
-···
+```
 ### PS：窗口法进行分类：
-···python
+```python
 def window_get_centor(arrimg):  
     """ 
     第1种方式：window-->fisher判别方法获得聚类中心 
@@ -236,9 +236,9 @@ def window_get_centor(arrimg):
     print("window计算类2中心为：", cen_2)  
   
     return cen_1, cen_2  
-···
+```
 ### 6、获取聚类中心
-···python
+```python
 def kmeans_get_centor(feature, cen_1, cen_2):  
     """ 
     第2种方式：kmeans方法获得聚类中心 
@@ -265,9 +265,9 @@ def kmeans_get_centor(feature, cen_1, cen_2):
         pass  
   
     return cen_1, cen_2  
-···
+```
 ### 7、显示聚类图像
-···python
+```python
 def image2k(centor1, centor2):  
     """ 
     根据聚类中心进行图像二分类 
@@ -295,4 +295,4 @@ def image2k(centor1, centor2):
     win = cv2.namedWindow('img win', flags=0)  
     cv2.imshow('img win', img2)  
     cv2.waitKey(0)  
-···
+```
