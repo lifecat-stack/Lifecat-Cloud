@@ -10,6 +10,17 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/lifecat-account-service/pom.xml" />
+        <option value="$PROJECT_DIR$/lifecat-admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/lifecat-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/lifecat-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/lifecat-service-server/pom.xml" />
+        <option value="$PROJECT_DIR$/lifecat-sleuth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/lifecat-zuul-server/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

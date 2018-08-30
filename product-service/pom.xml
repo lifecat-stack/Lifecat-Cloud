@@ -9,10 +9,11 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>lifecat-eureka-server</artifactId>
+    <artifactId>product-service</artifactId>
     <packaging>war</packaging>
 
-    <name>lifecat-eureka-server Maven Webapp</name>
+    <name>product-service Maven Webapp</name>
+    <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
     <properties>
@@ -31,7 +32,7 @@
     </dependencies>
 
     <build>
-        <finalName>lifecat-eureka-server</finalName>
+        <finalName>product-service</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>

@@ -6,10 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lifecat-config-server" />
-        <module name="lifecat-eureka-server" />
-        <module name="lifecat-service-server" />
+        <module name="account-service" />
+        <module name="admin-server" />
+        <module name="config-server" />
+        <module name="eureka-server" />
+        <module name="product-service" />
+        <module name="service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lifecat-admin-server" target="1.7" />
+      <module name="lifecat-config-server" target="1.7" />
+      <module name="lifecat-eureka-server" target="1.7" />
+      <module name="lifecat-service-server" target="1.7" />
+      <module name="lifecat-sleuth-server" target="1.7" />
+      <module name="lifecat-zuul-server" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
