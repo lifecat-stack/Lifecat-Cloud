@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b61adb7-06a6-496b-b2d0-d0c3da23e4e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-repo/cloud-config-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-repo/cloud-config-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecat-config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecat-eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecat-service-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-eureka/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-eureka/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-eureka/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-eureka/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-eureka/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-eureka/src/test/java/com/ten/eureka/lifecateureka/LifecatEurekaApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecat-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifecat-config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecat-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifecat-eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecat-service-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifecat-service-server/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,8 +27,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -51,34 +36,58 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-253">
+            <state relative-caret-position="368">
               <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lifecat-config-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="483">
+              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="184">
+                <caret line="8" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lifecat-eureka-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-685">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lifecat-service-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloud-config-test.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cloud-config-test.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-config-repo/cloud-config-test.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="cloud-config-dev.properties" pinned="false" current-in-tab="false">
@@ -96,9 +105,12 @@
       <list>
         <option value="$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java" />
         <option value="$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/lifecat-config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/lifecat-service-server/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/lifecat-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/lifecat-service-server/pom.xml" />
+        <option value="$PROJECT_DIR$/lifecat-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -138,13 +150,25 @@
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="lifecat-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-repo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
               <item name="lifecat-config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="lifecat-config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="lifecat-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
@@ -167,14 +191,6 @@
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="lifecat-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
               <item name="lifecat-service-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,14 +205,6 @@
               <item name="lifecat-service-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="lifecat-service-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,9 +221,14 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/spring-cloud-vue-master/back-end" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\MyJava\springcloud-lifecat\lifecat-config-server\src\main" />
+      <recent name="D:\Project\MyJava\springcloud-lifecat\lifecat-service-server\src\main" />
       <recent name="D:\Project\MyJava\springcloud-lifecat\cloud-config-repo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -311,12 +324,20 @@
       <workItem from="1534395930162" duration="2494000" />
       <workItem from="1535357486550" duration="575000" />
       <workItem from="1535359659182" duration="193000" />
-      <workItem from="1535623167306" duration="3327000" />
+      <workItem from="1535623167306" duration="4154000" />
     </task>
+    <task id="LOCAL-00001" summary="spring cloud config">
+      <created>1535628525951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535628525951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6589000" />
+    <option name="totallyTimeSpent" value="7416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -361,6 +382,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spring cloud config" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring cloud config" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml">
@@ -447,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -475,32 +493,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-repo/cloud-config-database.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="184">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-685">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifecat-service-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifecat-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-repo/cloud-config-dev.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-repo/cloud-config-test.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-service-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="253">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
