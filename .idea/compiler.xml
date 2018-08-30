@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-lifecat" />
-        <module name="lifecat-eureka" />
+        <module name="lifecat-config-server" />
+        <module name="lifecat-eureka-server" />
+        <module name="lifecat-service-server" />
       </profile>
     </annotationProcessing>
   </component>
