@@ -18,7 +18,9 @@
         <module name="lifecat-web" />
         <module name="product-service" />
         <module name="service-server" />
-        <module name="wechat-server" />
+        <module name="wechat-dao" />
+        <module name="wechat-entity" />
+        <module name="wechat-service" />
         <module name="wechat-web" />
       </profile>
     </annotationProcessing>

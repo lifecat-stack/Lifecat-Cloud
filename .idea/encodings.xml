@@ -18,6 +18,9 @@
     <file url="file://$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/wxcontroller/WxAlbumControllerTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/wxcontroller/WxUserControllerTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/wechat-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wechat-server/wechat-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wechat-server/wechat-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wechat-server/wechat-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wechat-server/wechat-web" charset="UTF-8" />
   </component>
 </project>

@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b61adb7-06a6-496b-b2d0-d0c3da23e4e4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wechat-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-server/wechat-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/WechatWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-server/wechat-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-server/wechat-entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-server/wechat-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-server/wechat-service/src/main/java/com.ten.wechat/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-server/wechat-service/src/main/java/com.ten.wechat/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/controller/BaseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-server/lifecat-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-server/lifecat-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-server/lifecat-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-server/lifecat-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-server/lifecat-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-server/lifecat-entity/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-server/lifecat-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-server/lifecat-manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-server/lifecat-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-server/lifecat-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-server/lifecat-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-server/lifecat-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/LcWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/LifecatWebApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wechat-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat-server/wechat-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wechat-server/wechat-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/WechatWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/WechatWebApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,6 +40,9 @@
     <ignored path="$PROJECT_DIR$/service-server/lifecat-dao/target/" />
     <ignored path="$PROJECT_DIR$/wechat-server/target/" />
     <ignored path="$PROJECT_DIR$/wechat-server/wechat-web/target/" />
+    <ignored path="$PROJECT_DIR$/wechat-server/wechat-service/target/" />
+    <ignored path="$PROJECT_DIR$/wechat-server/wechat-dao/target/" />
+    <ignored path="$PROJECT_DIR$/wechat-server/wechat-entity/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,29 +52,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-server/pom.xml">
+      <file leaf-file-name="BaseController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/controller/BaseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WechatWebApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/WechatWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="153" selection-end-column="27" />
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechat-server/pom.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wechat-server/wechat-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            <state relative-caret-position="-759">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -83,26 +92,17 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-server/lifecat-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
+            <state relative-caret-position="1863">
               <caret line="90" column="21" selection-start-line="37" selection-start-column="8" selection-end-line="90" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wechat-server/wechat-web/pom.xml">
+        <entry file="file://$PROJECT_DIR$/wechat-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1702">
-              <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WechatWebApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/WechatWebApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="240">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -110,36 +110,51 @@
       <file leaf-file-name="LifecatWebApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/LifecatWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="568">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat-server/wechat-service/src/main/java/com.ten.wechat/service/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wechat-server/wechat-service/src/main/java/com.ten.wechat/service/impl/TestServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/TestServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-server/lifecat-manager/pom.xml">
+        <entry file="file://$PROJECT_DIR$/wechat-server/wechat-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-server/lifecat-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-server/lifecat-entity/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
+            <state relative-caret-position="-420" />
           </provider>
         </entry>
       </file>
@@ -178,10 +193,14 @@
         <option value="$PROJECT_DIR$/service-server/lifecat-service/pom.xml" />
         <option value="$PROJECT_DIR$/service-server/lifecat-web/pom.xml" />
         <option value="$PROJECT_DIR$/service-server/pom.xml" />
-        <option value="$PROJECT_DIR$/wechat-server/pom.xml" />
-        <option value="$PROJECT_DIR$/wechat-server/wechat-web/pom.xml" />
         <option value="$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/WechatWebApplication.java" />
         <option value="$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/wechat/WechatWebApplication.java" />
+        <option value="$PROJECT_DIR$/wechat-server/wechat-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/wechat-server/wechat-service/src/main/java/com.ten.wechat/service/TestService.java" />
+        <option value="$PROJECT_DIR$/wechat-server/wechat-service/src/main/java/com.ten.wechat/service/impl/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/wechat-server/pom.xml" />
+        <option value="$PROJECT_DIR$/wechat-server/wechat-web/pom.xml" />
         <option value="$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/WechatWebApplication.java" />
       </list>
     </option>
@@ -222,72 +241,7 @@
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
               <item name="service-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="service-server" type="462c0819:PsiDirectoryNode" />
-              <item name="lifecat-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="service-server" type="462c0819:PsiDirectoryNode" />
-              <item name="lifecat-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="service-server" type="462c0819:PsiDirectoryNode" />
-              <item name="lifecat-entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="service-server" type="462c0819:PsiDirectoryNode" />
-              <item name="lifecat-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="service-server" type="462c0819:PsiDirectoryNode" />
-              <item name="lifecat-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
@@ -338,6 +292,117 @@
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
               <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
               <item name="wechat-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -374,6 +439,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wechat" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-server" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -395,16 +471,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\MyJava\springcloud-lifecat\wechat-server\wechat-service\src" />
+      <recent name="D:\Project\MyJava\springcloud-lifecat\wechat-server\wechat-entity\src" />
       <recent name="D:\Project\MyJava\springcloud-lifecat" />
       <recent name="D:\Project\MyJava\springcloud-lifecat\admin-server\src\main\java" />
       <recent name="D:\Project\MyJava\springcloud-lifecat\service\src\main" />
-      <recent name="D:\Project\MyJava\springcloud-lifecat\product-service\src\main" />
-      <recent name="D:\Project\MyJava\springcloud-lifecat\eureka-server\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ten" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\MyJava\springcloud-lifecat\wechat-server\wechat-dao\src\main" />
       <recent name="D:\springCloud\cloud-lifecat\.idea" />
     </key>
   </component>
@@ -420,7 +497,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LifecatWebApplication">
+  <component name="RunManager" selected="Application.WechatWebApplication">
     <configuration name="LifecatWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ten.LifecatWebApplication" />
       <module name="lifecat-web" />
@@ -428,6 +505,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ten.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="WechatWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ten.wechat.WechatWebApplication" />
+      <module name="wechat-web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ten.wechat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -495,9 +583,11 @@
       <item itemvalue="Spring Boot.LifecatEurekaApplication" />
       <item itemvalue="Application.LifecatWebApplication" />
       <item itemvalue="Spring Boot.WechatWebApplication" />
+      <item itemvalue="Application.WechatWebApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WechatWebApplication" />
         <item itemvalue="Application.LifecatWebApplication" />
       </list>
     </recent_temporary>
@@ -524,7 +614,7 @@
       <workItem from="1535359659182" duration="193000" />
       <workItem from="1535623167306" duration="7240000" />
       <workItem from="1535932720529" duration="2068000" />
-      <workItem from="1535971289751" duration="1305000" />
+      <workItem from="1535971289751" duration="2410000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud config">
       <created>1535628525951</created>
@@ -554,15 +644,21 @@
       <option name="project" value="LOCAL" />
       <updated>1535933444756</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="wechat server">
+      <created>1535972645523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535972645523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13875000" />
+    <option name="totallyTimeSpent" value="14980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -577,13 +673,13 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.11599099" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.11599099" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32995495" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.11373874" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27364865" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473176" />
@@ -608,41 +704,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring cloud config" />
     <MESSAGE value="service server" />
-    <option name="LAST_COMMIT_MESSAGE" value="service server" />
+    <MESSAGE value="wechat server" />
+    <option name="LAST_COMMIT_MESSAGE" value="wechat server" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/ten/cloud/eureka/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/ten/cloud/product/ProductServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ten/cloud/service/ServiceApplication.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-config-repo/cloud-config-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java" />
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml" />
     <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java" />
     <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties" />
@@ -781,27 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-server/lifecat-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-server/lifecat-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-server/lifecat-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -816,38 +860,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/wechat-server/wechat-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat-server/wechat-entity/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="148" column="27" selection-start-line="148" selection-start-column="27" selection-end-line="148" selection-end-column="27" />
+        <state relative-caret-position="161">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.5.RELEASE/spring-boot-autoconfigure-1.4.5.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-server/lifecat-entity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-server/lifecat-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-server/lifecat-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat-server/wechat-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat-server/wechat-service/src/main/java/com.ten.wechat/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat-server/wechat-service/src/main/java/com.ten.wechat/service/impl/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-server/lifecat-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
+        <state relative-caret-position="1863">
           <caret line="90" column="21" selection-start-line="37" selection-start-column="8" selection-end-line="90" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat-server/wechat-web/pom.xml">
+    <entry file="file://$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1702">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/LifecatWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state relative-caret-position="568">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat-server/wechat-web/src/main/java/com/ten/wechat/WechatWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="253">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wechat-server/wechat-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -931,7 +1064,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
