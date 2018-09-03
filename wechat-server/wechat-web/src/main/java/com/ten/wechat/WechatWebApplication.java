@@ -1,7 +1,6 @@
-package com.ten;
+package com.ten.wechat;
 
 import com.alibaba.druid.pool.DruidDataSource;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -16,17 +15,17 @@ import javax.sql.DataSource;
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 @MapperScan("com.ten.mapper")
-class LcWebApplication {
+class WechatWebApplication {
 
     private final Environment env;
 
     @Autowired
-    public LcWebApplication(Environment env) {
+    public WechatWebApplication(Environment env) {
         this.env = env;
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(LcWebApplication.class, args);
+        SpringApplication.run(WechatWebApplication.class, args);
     }
 
     /**
