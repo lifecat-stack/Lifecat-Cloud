@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/lifecat-service-server/pom.xml" />
         <option value="$PROJECT_DIR$/lifecat-sleuth-server/pom.xml" />
         <option value="$PROJECT_DIR$/lifecat-zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/service/pom.xml" />
       </set>
     </option>
   </component>

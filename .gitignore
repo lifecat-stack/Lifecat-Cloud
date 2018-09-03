@@ -1,3 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 
 .idea
+service-server/lifecat-common/target/
+service-server/lifecat-dao/target/
+service-server/lifecat-entity/target/
+service-server/lifecat-manager/target/
+service-server/lifecat-service/target/
+service-server/lifecat-web/target/

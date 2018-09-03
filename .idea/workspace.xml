@@ -1,28 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b61adb7-06a6-496b-b2d0-d0c3da23e4e4" name="Default" comment="spring cloud config">
-      <change afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com.ten.cloud/account/AccountServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin-server/src/main/java/com/ten/cloud/admin/AdminServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/java/com/ten/cloud/config/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/ten/cloud/eureka/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/ten/cloud/product/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/ten/cloud/service/ServiceApplication.java" afterDir="false" />
+    <list default="true" id="7b61adb7-06a6-496b-b2d0-d0c3da23e4e4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/service-server/Image/show1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/Image/show2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/Image/应用分层图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/catdb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/aop/ControllerInfoInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/check/ControllerCheckUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/check/ServiceCheckUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/email/AlertMailSendManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/email/SimpleEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/email/impl/AlertMailSendManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/exception/RequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/exception/impl/NecessaryParameterIsNullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/exception/impl/RequestDataFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/exception/impl/RequestDataNullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/exception/impl/ResourceExecuteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/exception/impl/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/jms/ActiveMqQueueConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/jms/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/jms/MessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/jms/MessageQueueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/jms/impl/MessageQueueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/redis/RedisConnections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/utils/DataAndViewTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-common/src/main/java/com.ten/utils/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/AlbumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/GroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/GroupPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/GroupRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/ImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/InfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/LogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/RecordCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/RecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/RecordPostMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/RolePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/UserGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/UserPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-dao/src/main/java/com/ten/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/MyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/dto/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/AlbumDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/GroupDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/GroupPermissionDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/GroupRoleDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/ImageDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/InfoDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/LogDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/PermissionDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/RecordCommentDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/RecordDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/RecordPostDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/RoleDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/RolePermissionDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/TestDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/UserGroupDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/UserPermissionDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/entity/UserRoleDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/AlbumVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/ImageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/InfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/LogVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/RecordCommentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/RecordPostVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/RecordVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/TestVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/UserAccountVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/UserPropertyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/constant/INFOLEVEL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/constant/PERMISSION.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/constant/ROLE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-entity/src/main/java/com.ten/vo/constant/SEX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/src/main/java/com.ten/manager/TestServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/src/main/java/com.ten/manager/TestServiceManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/src/main/java/com.ten/manager/image/ImageServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/src/main/java/com.ten/manager/image/ImageServiceManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/src/main/java/com.ten/manager/message/MessageServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/src/main/java/com.ten/manager/message/MessageServiceManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/src/main/java/com.ten/manager/record/RecordServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/src/main/java/com.ten/manager/record/RecordServiceManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/src/main/java/com.ten/manager/user/UserServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-manager/src/main/java/com.ten/manager/user/UserServiceManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/BaseExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/authorization/AuthorizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/image/AlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/image/ImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/message/InfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/message/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/record/RecordCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/record/RecordPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/record/RecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/user/UserAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/service/user/UserPropertyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/authorization/AuthorizationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/authorization/data/UserAuthorizationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/authorization/realm/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/image/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/image/ImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/message/InfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/message/LogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/record/RecordCommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/record/RecordPostServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/record/RecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/user/UserAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/java/com/ten/service/serviceimpl/user/UserPropertyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/BaseServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/TestServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/authorization/AuthorizationServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/authorization/data/UserAuthorizationDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/authorization/realm/CustomRealmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/image/AlbumServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/image/ImageServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/message/InfoServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/message/LogServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/record/RecordPostServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/record/RecordServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/user/UserAccountServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-service/src/test/java/com/ten/service/serviceimpl/user/UserPropertyServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/LcWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/authorization/AuthorizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/image/AlbumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/image/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/message/InfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/message/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/record/RecordCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/record/RecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/user/UserAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/user/UserPropertyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/wxcontroller/WxAlbumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/wxcontroller/WxRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/java/com/ten/controller/wxcontroller/WxUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/main/resources/swaggerapi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/TestControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/authorization/AuthorizationControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/image/AlbumControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/image/ImageControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/message/InfoControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/message/LogControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/record/RecordCommentControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/record/RecordControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/user/UserAccountControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/user/UserPropertyControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/wxcontroller/WxAlbumControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/wxcontroller/WxRecordControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/lifecat-web/src/test/java/com/ten/controller/wxcontroller/WxUserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-config-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-eureka-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecat-service-server/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/ten/cloud/service/ServiceApplication.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,6 +193,13 @@
     <ignored path="$PROJECT_DIR$/config-server/target/" />
     <ignored path="$PROJECT_DIR$/account-service/target/" />
     <ignored path="$PROJECT_DIR$/service/target/" />
+    <ignored path="$PROJECT_DIR$/service-server/lifecat-service/target/" />
+    <ignored path="$PROJECT_DIR$/service-server/lifecat-web/target/" />
+    <ignored path="$PROJECT_DIR$/service-server/target/" />
+    <ignored path="$PROJECT_DIR$/service-server/lifecat-common/target/" />
+    <ignored path="$PROJECT_DIR$/service-server/lifecat-manager/target/" />
+    <ignored path="$PROJECT_DIR$/service-server/lifecat-entity/target/" />
+    <ignored path="$PROJECT_DIR$/service-server/lifecat-dao/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,38 +209,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="AccountServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account-service/src/main/java/com.ten.cloud/account/AccountServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin-server/src/main/java/com/ten/cloud/admin/AdminServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/ten/cloud/config/ConfigServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EurekaServerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/ten/cloud/eureka/EurekaServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,16 +227,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ten/cloud/service/ServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cloud-config-dev.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cloud-config-dev.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-config-repo/cloud-config-dev.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
@@ -117,14 +236,55 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-server/log/app.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-server/lifecat-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catdb.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-server/catdb.sql">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" selection-start-line="4" selection-start-column="4" selection-end-line="17" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -152,9 +312,10 @@
         <option value="$PROJECT_DIR$/lifecat-account-service/pom.xml" />
         <option value="$PROJECT_DIR$/admin-server/pom.xml" />
         <option value="$PROJECT_DIR$/service/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/account-service/src/main/java/com.ten.cloud/account/AccountServerApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service-server/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -184,157 +345,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="account-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-config-repo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
@@ -374,51 +393,31 @@
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="service-server" type="462c0819:PsiDirectoryNode" />
+              <item name="lifecat-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service-server" type="462c0819:PsiDirectoryNode" />
+              <item name="lifecat-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-lifecat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-lifecat" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/spring-cloud-vue-master/back-end" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-lifecat" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -426,15 +425,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\springCloud\cloud-lifecat\.idea" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\MyJava\springcloud-lifecat" />
       <recent name="D:\Project\MyJava\springcloud-lifecat\admin-server\src\main\java" />
       <recent name="D:\Project\MyJava\springcloud-lifecat\service\src\main" />
       <recent name="D:\Project\MyJava\springcloud-lifecat\product-service\src\main" />
       <recent name="D:\Project\MyJava\springcloud-lifecat\eureka-server\src\main" />
-      <recent name="D:\Project\MyJava\springcloud-lifecat\config-server\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\springCloud\cloud-lifecat\.idea" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -526,7 +525,8 @@
       <workItem from="1534395930162" duration="2494000" />
       <workItem from="1535357486550" duration="575000" />
       <workItem from="1535359659182" duration="193000" />
-      <workItem from="1535623167306" duration="7217000" />
+      <workItem from="1535623167306" duration="7240000" />
+      <workItem from="1535932720529" duration="568000" />
     </task>
     <task id="LOCAL-00001" summary="spring cloud config">
       <created>1535628525951</created>
@@ -542,11 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535629466322</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring cloud config">
+      <created>1535634598888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535634598888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10479000" />
+    <option name="totallyTimeSpent" value="11070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -564,24 +571,24 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.06306306" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32995495" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32996634" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24087983" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24409871" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.06306306" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
@@ -594,207 +601,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring cloud config" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring cloud config" />
+    <MESSAGE value="service server" />
+    <option name="LAST_COMMIT_MESSAGE" value="service server" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="94" selection-start-line="3" selection-start-column="94" selection-end-line="3" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="94" selection-start-line="3" selection-start-column="94" selection-end-line="3" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="94" selection-start-line="3" selection-start-column="94" selection-end-line="3" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/test/java/com/ten/eureka/lifecateureka/LifecatEurekaApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="94" selection-start-line="3" selection-start-column="94" selection-end-line="3" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-repo/cloud-config-database.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="184">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-service-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-admin-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-sleuth-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-zuul-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecat-account-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-repo/cloud-config-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1086">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/account-service/src/main/java/com.ten.cloud/account/AccountServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -841,6 +651,157 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/java/com/ten/eureka/lifecateureka/LifecatEurekaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/test/java/com/ten/eureka/lifecateureka/LifecatEurekaApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="184">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lifecat-eureka-server/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/lifecat-service-server/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/lifecat-config-server/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/lifecat-account-service/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cloud-config-repo/cloud-config-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-service/src/main/java/com.ten.cloud/account/AccountServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin-server/src/main/java/com/ten/cloud/admin/AdminServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/java/com/ten/cloud/config/ConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/ten/cloud/eureka/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-repo/cloud-config-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-server/log/app.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/ten/cloud/service/ServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/src/main/java/com/ten/cloud/product/ProductServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="4" selection-start-column="4" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-server/catdb.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-server/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-server/lifecat-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

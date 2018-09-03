@@ -10,8 +10,14 @@
         <module name="admin-server" />
         <module name="config-server" />
         <module name="eureka-server" />
+        <module name="lifecat-common" />
+        <module name="lifecat-dao" />
+        <module name="lifecat-entity" />
+        <module name="lifecat-manager" />
+        <module name="lifecat-service" />
+        <module name="lifecat-web" />
         <module name="product-service" />
-        <module name="service" />
+        <module name="service-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +27,7 @@
       <module name="lifecat-service-server" target="1.7" />
       <module name="lifecat-sleuth-server" target="1.7" />
       <module name="lifecat-zuul-server" target="1.7" />
+      <module name="service" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
