@@ -1,7 +1,5 @@
 package com.ten.util;
 
-import com.ten.constant.DataBase;
-import com.ten.constant.HOST;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
