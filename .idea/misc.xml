@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/wechat-server/wechat-web/pom.xml" />
+        <option value="$PROJECT_DIR$/servlet-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

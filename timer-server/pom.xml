@@ -2,25 +2,18 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springcloud-lifecat</artifactId>
+        <groupId>com.ten</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ten</groupId>
-    <artifactId>springcloud-lifecat</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>timer-server</artifactId>
+    <packaging>war</packaging>
 
-    <modules>
-        <module>product-service</module>
-        <module>admin-server</module>
-        <module>config-server</module>
-        <module>eureka-server</module>
-        <module>account-service</module>
-        <module>service-server</module>
-        <module>wechat-server</module>
-        <module>timer-server</module>
-    </modules>
-
-    <packaging>pom</packaging>
-    <name>cloud-lifecat Maven Webapp</name>
+    <name>timer-server Maven Webapp</name>
+    <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
     <properties>
@@ -29,26 +22,17 @@
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.3.RELEASE</version>
-    </parent>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Camden.SR6</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <build>
-        <finalName>cloud-lifecat</finalName>
+        <finalName>timer-server</finalName>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
                 <plugin>
