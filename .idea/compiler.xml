@@ -27,6 +27,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="collect-service_main" target="1.8" />
+      <module name="collect-service_test" target="1.8" />
       <module name="lifecat-admin-server" target="1.7" />
       <module name="lifecat-config-server" target="1.7" />
       <module name="lifecat-eureka-server" target="1.7" />
